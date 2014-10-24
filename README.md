@@ -1,11 +1,14 @@
-Gettingand Cleaning Project
+Getting and Cleaning Project
 
-Created R script called run_analysis.R that does the following. 
-Step 1 - Merges the training and the test sets to create one data set.
-Step 2 - Extracts only the measurements on the mean and standard deviation for each measurement. 
-Step 3 - Uses descriptive activity names to name the activities in the data set
-Step 4 - Appropriately labels the data set with descriptive variable names. 
-Step 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+This repo contains the following files and folders.
 
-Here are the data for the project: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+run_analysis.R 
+The r script processes the data and generated the required tidy dataset for submission.
+submit.txt 
+The text file contains the required tidy dataset for submission.
+UCI HAR Dataset folder
+This folder contains the input data, which downloads from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+CodeBook.md 
+A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
+README.md 
+The README file for this repo.
